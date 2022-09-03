@@ -6,11 +6,18 @@ public class _1ObjectDemo {
         //let a = new A();
         //syntax
         //Type var_name = new class()
-        A a = new A();
+        A a= new A();
+        A a1=new A();
+        a.sayHello();
     }
 }
 
 class A{
+    int variable = 10;
+    void sayHello(){
+        System.out.println("Hello");
+    }
+
     A(){
         System.out.println("Constructor called");
     }

@@ -15,9 +15,14 @@ public class Course {
     }
 
     public static void main(String[] args) {
-
-        authenticate();
+        String username, password;
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter username:");
+        username = scanner.nextLine();
+        System.out.print("Enter password:");
+        password = scanner.nextLine();
+        authenticate(username,password);
+
         System.out.println("Enter Course Name:");
         String course_name = scanner.nextLine();
         System.out.println("Enter Course ID:");
@@ -36,13 +41,8 @@ public class Course {
 
     }
 
-    static void authenticate(){
-        String username, password;
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter username:");
-        username = s.nextLine();
-        System.out.print("Enter password:");
-        password = s.nextLine();
+    static void authenticate(String username, String password){
+
         if(username.equals("Admin") && password.equals("1234"))
         {
             System.out.println("Authentication Successful");

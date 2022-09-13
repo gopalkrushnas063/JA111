@@ -1,0 +1,4 @@
+7. Explain the concept of static in Java.
+
+In the Java programming language "static" means that the particular member belongs to a type itself , rather than to an instance
+of that type. This means we will create only one instance of that static member that is shared across all instances of the class.

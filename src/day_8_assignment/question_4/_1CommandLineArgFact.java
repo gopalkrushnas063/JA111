@@ -1,10 +1,10 @@
-package sprint3.day2;
+package day_8_assignment.question_4;
 
-public class _1CmdLine {
+public class _1CommandLineArgFact {
     public static void main(String[] args) {
 
         if(args.length > 3)
-            System.out.println("error");
+            System.out.println("Error");
 
         int number;
         if(args.length == 1) {
@@ -28,3 +28,7 @@ public class _1CmdLine {
         else return num*fact(num-1);
     }
 }
+
+
+
+

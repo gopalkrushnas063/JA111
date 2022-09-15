@@ -1,0 +1,17 @@
+q.4) Explain the difference between overloading and overriding methods with an example?
+
+Method Overloading ;
+i.	In the method overloading, methods or functions must have the same name and different signatures.
+ii.	Method overloading is a example of compile time polymorphism.
+iii.In the method overloading, inheritance may or may not be required.
+iv.	Method overloading is performed between methods within the class.
+v.	It is used in order to add more to the behavior of methods.
+vi.	In method overloading, there is no need of more than one class.
+
+Method Overriding:
+i.  Whereas in the method overriding, methods or functions must have the same name and same signatures.
+ii. Whereas method overriding is a example of run time polymorphism.
+iii.Whereas in method overriding, inheritance always required.
+iv. Whereas method overriding is done between parent class and child class methods.
+v.  Whereas it is used in order to change the behavior of exist methods.
+vi  Whereas in method overriding, there is need of at least of two classes.

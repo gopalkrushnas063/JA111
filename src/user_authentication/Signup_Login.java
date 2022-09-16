@@ -1,6 +1,5 @@
 package user_authentication;
 
-import sprint2.day1.apnacollege.Logical_operators;
 
 import java.util.Scanner;
 

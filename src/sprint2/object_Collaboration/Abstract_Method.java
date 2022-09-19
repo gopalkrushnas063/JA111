@@ -12,5 +12,6 @@ public class Abstract_Method {
 
 
 abstract class ABC{
+    int age;
     abstract void calculate();
 }

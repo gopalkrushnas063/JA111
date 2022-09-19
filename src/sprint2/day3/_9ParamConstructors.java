@@ -17,6 +17,7 @@ class Movie{
     }
 
     Movie(int song){
-    noOfSong = song;
+
+        noOfSong = song;
     }
 }
